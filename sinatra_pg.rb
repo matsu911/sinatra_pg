@@ -25,7 +25,8 @@ end
 end
 
 file "Gemfile" do
-  "gem 'sinatra'
+  "source :rubygems
+gem 'sinatra'
 "
 end
 
